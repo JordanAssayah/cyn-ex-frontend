@@ -1,0 +1,101 @@
+.main {
+  padding: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul.list-inline li {
+  display: inline;
+  margin-right: 20px;
+  color: greygrey;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.btn {
+  border: none;
+  text-transform: capitalize;
+
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.btn--neutral {
+  background-color: white;
+  color: grey;
+  border: 1px solid rgb(224, 227, 233);
+}
+
+.btn--primary {
+  background-color: rgb(64, 158, 255);
+  color: white;
+}
+
+.mrgt0 {
+  margin-top: 0;
+}
+
+.mrgt {
+  margin-top: 20px;
+}
+
+.mrgt\+ {
+  margin-top: 50px;
+}
+
+.mrgb {
+  margin-bottom: 20px;
+}
+
+.mrgr\-\- {
+  margin-right: 5px;
+}
+
+.mrgr\- {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  border-radius: 4px;
+  border: 1px solid rgb(224, 227, 233);
+  padding: 10px 15px;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(155, 155, 155);
+  font-weight: bold;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.push-right {
+  float: right;
+}
+
+/*------------ Tables --------------*/
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  color: rgb(152, 155, 160);
+  border-bottom: 1px solid #e0e0e0;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+td {
+  color: rgb(129, 131, 133);
+  border-bottom: 1px solid #e0e0e0;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
